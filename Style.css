@@ -1,0 +1,391 @@
+body {
+  font: 20px "Helvetica";
+}
+.navbar {
+  margin-bottom: 0px;
+}
+a {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  text-decoration: none;
+}
+.donate {
+  background: #00684d;
+  background: -webkit-linear-gradient(
+      top,
+      transparent 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    -webkit-linear-gradient(left, #00b586 0%, #00684d 50%, #00b586 100%);
+  background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    linear-gradient(to right, #00b586 0%, #00684d 50%, #00b586 100%);
+  background-position: 0 0;
+  background-size: 200% 100%;
+  border-radius: 4px;
+  color: #fff;
+  padding: 15px 65px 15px 15px;
+  text-shadow: 1px 1px 5px #666;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+}
+.donate:after {
+  border-left: 1px solid #004f3a;
+  color: #003527;
+  content: "\f004";
+  font: 20px "FontAwesome";
+  padding: 10px 0;
+  padding-left: 15px;
+  position: absolute;
+  right: 16px;
+  top: 7px;
+  -webkit-transition: all 600ms 200ms;
+  transition: all 600ms 200ms;
+}
+.donate:hover {
+  background-position: -100% 0;
+}
+.donate:hover:after {
+  border-left: 1px solid #008260;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+#quote {
+  font-size: 24px;
+  font-family: Advent Pro;
+}
+.heading {
+  margin-bottom: 10px;
+}
+
+h2 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h2 span {
+  text-align: left;
+  display: block;
+  font-size: 0.3em;
+  line-height: 0.5;
+}
+h2 em {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.two h2 {
+  text-transform: capitalize;
+}
+.two h2:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 130px;
+  height: 2px;
+  content: "";
+  background-color: #c50000;
+}
+
+.two h2 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1em;
+  padding-left: 0.25em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}
+.alt-two h2 {
+  text-align: center;
+}
+.alt-two h2:before {
+  left: 50%;
+  margin-left: -30px;
+}
+h2 {
+  padding-top: 0%;
+  height: 100px;
+}
+
+/* For the Contact Form*/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+#ct {
+  background: #2d3b36
+    url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 965px;
+  height: 450px;
+  padding: 30px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+}
+
+textarea {
+  background: rgba(0, 0, 0, 0.4);
+  width: 894px;
+  height: 110px;
+  border: none;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 45px;
+  padding-right: 20px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.nameinput,
+.emailinput {
+  width: 894px;
+  height: 48px;
+  border: none;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input.nameinput {
+  background: rgba(0, 0, 0, 0.4);
+  padding-left: 45px;
+}
+
+input.emailinput {
+  background: rgba(0, 0, 0, 0.4);
+  padding-left: 45px;
+}
+
+input.message {
+  background: rgba(0, 0, 0, 0.4);
+  padding-left: 45px;
+}
+
+select.indent {
+  padding-left: 45px;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.flat {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.flat:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+.flat {
+  width: 960px !important;
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: url(http://www.jordancundiff.com/wp-content/uploads/2014/03/icon-dropdown.png)
+    no-repeat right;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1035px) {
+  h1 {
+    font-size: 80px;
+  }
+  form {
+    width: 736px !important;
+  }
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Subject.flat
+    > select,
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Subject.flat {
+    width: 731px !important;
+  }
+  .nameinput,
+  .emailinput,
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Message
+    > textarea {
+    width: 666px !important;
+  }
+}
+
+@media only screen and (max-width: 804px) {
+  h1 {
+    font-size: 50px;
+  }
+  form {
+    width: 450px !important;
+  }
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Subject.flat
+    > select,
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Subject.flat {
+    width: 445px !important;
+  }
+  .nameinput,
+  .emailinput,
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Message
+    > textarea {
+    width: 380px !important;
+  }
+}
+
+@media only screen and (max-width: 517px) {
+  h1 {
+    font-size: 30px;
+  }
+  form {
+    width: 295px !important;
+  }
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Subject.flat
+    > select,
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Subject.flat {
+    width: 290px !important;
+  }
+  .nameinput,
+  .emailinput,
+  #wpcf7-f156-p143-o1\20
+    formwrap
+    > form
+    > p
+    > span.wpcf7-form-control-wrap.Message
+    > textarea {
+    width: 225px !important;
+  }
+  .btn {
+    width: 110px;
+  }
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.social-media {
+  padding: 10px;
+}
